@@ -1,0 +1,6 @@
+@Spontanize_HostAddress = http://localhost:5030
+
+GET {{Spontanize_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,17 @@
+C:\Users\jusra\RiderProjects\Spontanize\Service\bin\Debug\net8.0\Service.deps.json
+C:\Users\jusra\RiderProjects\Spontanize\Service\bin\Debug\net8.0\Service.runtimeconfig.json
+C:\Users\jusra\RiderProjects\Spontanize\Service\bin\Debug\net8.0\Service.dll
+C:\Users\jusra\RiderProjects\Spontanize\Service\bin\Debug\net8.0\Service.pdb
+C:\Users\jusra\RiderProjects\Spontanize\Service\bin\Debug\net8.0\Data.dll
+C:\Users\jusra\RiderProjects\Spontanize\Service\bin\Debug\net8.0\Data.pdb
+C:\Users\jusra\RiderProjects\Spontanize\Service\obj\Debug\net8.0\Service.csproj.AssemblyReference.cache
+C:\Users\jusra\RiderProjects\Spontanize\Service\obj\Debug\net8.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jusra\RiderProjects\Spontanize\Service\obj\Debug\net8.0\Service.AssemblyInfoInputs.cache
+C:\Users\jusra\RiderProjects\Spontanize\Service\obj\Debug\net8.0\Service.AssemblyInfo.cs
+C:\Users\jusra\RiderProjects\Spontanize\Service\obj\Debug\net8.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\jusra\RiderProjects\Spontanize\Service\obj\Debug\net8.0\Service.csproj.Up2Date
+C:\Users\jusra\RiderProjects\Spontanize\Service\obj\Debug\net8.0\Service.dll
+C:\Users\jusra\RiderProjects\Spontanize\Service\obj\Debug\net8.0\refint\Service.dll
+C:\Users\jusra\RiderProjects\Spontanize\Service\obj\Debug\net8.0\Service.pdb
+C:\Users\jusra\RiderProjects\Spontanize\Service\obj\Debug\net8.0\Service.genruntimeconfig.cache
+C:\Users\jusra\RiderProjects\Spontanize\Service\obj\Debug\net8.0\ref\Service.dll
