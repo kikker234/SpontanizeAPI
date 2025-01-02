@@ -18,7 +18,7 @@ builder.Services.AddProblemDetails();
 builder.Services.AddIdentityApiEndpoints<User>()
     .AddEntityFrameworkStores<SpontanizeContext>();
 
-var connectionString = "Server=localhost;Database=spontanize;User=root;Password=;";
+var connectionString = "Server=mysql;Port=3307;Database=spontanize;User=user;Password=;";
 
 builder.Services.AddDbContext<SpontanizeContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
@@ -55,6 +55,13 @@ builder.Services.Configure<ApiBehaviorOptions>(options =>
     options.SuppressModelStateInvalidFilter = true;
 });
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<SpontanizeContext>();
+    db.Database.Migrate();
+}
+
 
 // Configure the HTTP request pipeline.
     app.UseSwagger();
