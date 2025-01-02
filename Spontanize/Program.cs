@@ -60,8 +60,30 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<SpontanizeContext>();
-    db.Database.Migrate();
+    int retryCount = 3; // Aantal pogingen
+    int delay = 2000;   // Wachtperiode in milliseconden
+
+    for (int attempt = 1; attempt <= retryCount; attempt++)
+    {
+        try
+        {
+            db.Database.Migrate();
+            Console.WriteLine("Database migrated successfully.");
+            break; // Als het lukt, stoppen we de loop
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Attempt {attempt} failed: {ex.Message}");
+            if (attempt == retryCount)
+            {
+                Console.WriteLine("All retry attempts failed.");
+                throw; // Hergooi de uitzondering als het definitief niet lukt
+            }
+            Thread.Sleep(delay); // Wacht voordat je het opnieuw probeert
+        }
+    }
 }
+
 
 app.Use(async (context, next) =>
 {
