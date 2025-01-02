@@ -13,6 +13,7 @@
         "packagesPath": "C:\\Users\\jusra\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\jusra\\RiderProjects\\Spontanize\\Data\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\jusra\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -43,6 +44,22 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentResults": {
+              "target": "Package",
+              "version": "[3.16.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.2, )"
@@ -66,6 +83,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -101,6 +122,7 @@
         "packagesPath": "C:\\Users\\jusra\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\jusra\\RiderProjects\\Spontanize\\Service\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\jusra\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -139,6 +161,22 @@
               "target": "Package",
               "version": "[6.5.1, )"
             },
+            "FluentResults": {
+              "target": "Package",
+              "version": "[3.16.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
@@ -160,6 +198,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -191,6 +233,7 @@
         "packagesPath": "C:\\Users\\jusra\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\jusra\\RiderProjects\\Spontanize\\Spontanize\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\jusra\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -228,6 +271,22 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentResults": {
+              "target": "Package",
+              "version": "[3.16.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[12.4.1, )"
@@ -253,6 +312,10 @@
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[8.0.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",

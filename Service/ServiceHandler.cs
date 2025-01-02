@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using FluentValidation;
+using MediatR;
 
 namespace Service;
 
@@ -17,16 +18,28 @@ public class ServiceHandler(IMediator mediator) : IServiceHandler
                 Body = result,
                 Error = false,
                 Success = true,
+                StatusCode = 200,
             };
         }
-        catch (Exception e)
+        catch (ValidationException e)
         {
-            Console.WriteLine(e);
+            Console.WriteLine(e.Errors);
             return new BaseResponse<T>
             {
                 Success = false,
                 Error = true,
-                ErrorMessage = "An error occurred"
+                StatusCode = 400,
+                ErrorMessages = e.Errors
+            };
+        }
+        catch (Exception e)
+        {
+            return new BaseResponse<T>
+            {
+                Success = false,
+                Error = true,
+                StatusCode = 500,
+                ErrorMessage = e.Message
             };
         }
     }

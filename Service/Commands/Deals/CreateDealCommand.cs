@@ -6,4 +6,5 @@ namespace Service.Commands.Deals;
 public class CreateDealCommand : IRequest<bool>
 {
     public Deal Deal { get; set; }
+    public string? UserId { get; set; }
 }

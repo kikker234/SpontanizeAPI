@@ -135,3 +135,9 @@ C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\Microsoft.As
 C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\jusra\RiderProjects\Spontanize\Spontanize\obj\Debug\net8.0\Spontanize.sourcelink.json
+C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\FluentResults.dll
+C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
