@@ -1,3 +1,4 @@
+using System.Text;
 using Data;
 using Data.Models;
 using FluentValidation;
@@ -62,6 +63,19 @@ using (var scope = app.Services.CreateScope())
     db.Database.Migrate();
 }
 
+app.Use(async (context, next) =>
+{
+    var initialBody = context.Request.Body;
+
+    using (var bodyReader = new StreamReader(context.Request.Body))
+    {
+        string body = await bodyReader.ReadToEndAsync();
+        Console.WriteLine(body);
+        context.Request.Body = new MemoryStream(Encoding.UTF8.GetBytes(body));
+        await next.Invoke();
+        context.Request.Body = initialBody;
+    }
+});
 
 // Configure the HTTP request pipeline.
     app.UseSwagger();
