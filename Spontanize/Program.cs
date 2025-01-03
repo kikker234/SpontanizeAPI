@@ -19,8 +19,8 @@ builder.Services.AddProblemDetails();
 builder.Services.AddIdentityApiEndpoints<User>()
     .AddEntityFrameworkStores<SpontanizeContext>();
 
-var connectionString = "Server=database;Port=3306;Database=spontanize;User=user;Password=password;";
-// var connectionString = "Server=localhost;Port=3306;Database=spontanize;User=root;Password=;";
+// var connectionString = "Server=database;Port=3306;Database=spontanize;User=user;Password=password;";
+var connectionString = "Server=localhost;Port=3306;Database=spontanize;User=root;Password=;";
 
 builder.Services.AddDbContext<SpontanizeContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
