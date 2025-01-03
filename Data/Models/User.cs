@@ -7,6 +7,6 @@ public class User : IdentityUser
 {
     public int? OrganizationId { get; set; }
     public Organization? Organization { get; set; }
-    
-    public UserType UserType { get; set; }
+
+    public UserType UserType { get; set; } = UserType.Company;
 }
