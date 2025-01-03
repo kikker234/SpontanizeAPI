@@ -13,9 +13,11 @@ namespace Spontanize.Controllers;
 public class DealsController(IServiceHandler handler) : SpontanizeController
 {
     [HttpGet]
+    [Authorize]
     public async Task<IActionResult> GetAll()
     {
         var query = new GetAllQuery();
+        query.UserId = GetUserId();
 
         return await HandleMediatr(handler, query);
     }
