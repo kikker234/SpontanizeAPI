@@ -25,4 +25,5 @@ jobs:
           git checkout master
           git pull
           cd ..
-          docker-compose up --build -d
+          docker compose down --build -d
+          docker compose up --build -d
