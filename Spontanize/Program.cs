@@ -19,7 +19,8 @@ builder.Services.AddProblemDetails();
 builder.Services.AddIdentityApiEndpoints<User>()
     .AddEntityFrameworkStores<SpontanizeContext>();
 
-var connectionString = "Server=database;Port=3306;Database=spontanize;User=user;Password=password;";
+// if app is in prod:
+var connectionString = "Server=database;Port=3306;Database=spontanize;User=user;Password=b69b6623-24e3-4586-bef4-30425c5bcad836c881b2-65b4-4dae-8ada-fcea339a306c;";
 // var connectionString = "Server=localhost;Port=3306;Database=spontanize;User=root;Password=;";
 
 builder.Services.AddDbContext<SpontanizeContext>(options =>
