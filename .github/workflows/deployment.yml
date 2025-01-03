@@ -23,4 +23,6 @@ jobs:
         script: |
           cd /Projects/Spontanize/Backend
           git checkout master
+          git pull
+          cd ..
           docker-compose up --build -d
