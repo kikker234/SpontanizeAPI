@@ -13,6 +13,7 @@
         "packagesPath": "C:\\Users\\jusra\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\jusra\\RiderProjects\\Spontanize\\Data\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\jusra\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -121,6 +122,7 @@
         "packagesPath": "C:\\Users\\jusra\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\jusra\\RiderProjects\\Spontanize\\Service\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\jusra\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],

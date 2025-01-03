@@ -141,3 +141,13 @@ C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\FluentValida
 C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\FluentResults.dll
 C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\jusra\RiderProjects\Spontanize\Spontanize\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

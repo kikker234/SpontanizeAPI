@@ -19,7 +19,8 @@ builder.Services.AddProblemDetails();
 builder.Services.AddIdentityApiEndpoints<User>()
     .AddEntityFrameworkStores<SpontanizeContext>();
 
-var connectionString = "Server=database;Port=3306;Database=spontanize;User=user;Password=password;";
+// var connectionString = "Server=database;Port=3306;Database=spontanize;User=user;Password=password;";
+var connectionString = "Server=localhost;Port=3306;Database=spontanize;User=root;Password=;";
 
 builder.Services.AddDbContext<SpontanizeContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
@@ -50,6 +51,7 @@ builder.Services.AddMediatR(cfg =>
     cfg.AddOpenBehavior(typeof(ValidatorPipeline<,>));
 });
 
+builder.Services.AddHealthChecks();
 builder.Services.AddTransient<IServiceHandler, ServiceHandler>();
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
@@ -98,7 +100,7 @@ app.Use(async (context, next) =>
         context.Request.Body = initialBody;
     }
 });
-
+app.MapHealthChecks("/api/health");
 // Configure the HTTP request pipeline.
     app.UseSwagger();
     app.UseSwaggerUI();
